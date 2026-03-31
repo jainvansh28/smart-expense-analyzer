@@ -1,53 +1,103 @@
-# Smart Expense Analyzer & Spending Behavior Predictor
+💰 Smart Expense Analyzer
 
-A modern fintech dashboard for expense tracking, analytics, and ML-powered spending predictions.
+A full-stack personal finance management web application that helps users track expenses, manage budgets, and analyze their spending behavior.
 
-## Tech Stack
+---
 
-- **Frontend**: React.js, Tailwind CSS, Framer Motion, Recharts, Lucide React
-- **Backend**: Java Spring Boot, JWT Authentication
-- **Database**: MySQL
-- **ML Service**: Python FastAPI, Scikit-learn
+🚀 Features
 
-## Features
+📊 Expense & Income Management
 
-- User authentication with email OTP verification
-- Expense management (CRUD operations)
-- Real-time analytics and visualizations
-- ML-powered spending predictions
-- Smart budget suggestions
-- Student budget mode
-- Dark mode support
-- Responsive design
+- Add, update, and delete expenses
+- Track multiple income sources (salary, extra income)
+- Monthly balance calculation
 
-## Project Structure
+📈 Dashboard & Analytics
 
-```
+- Real-time financial overview
+- Category-wise expense distribution (Pie Chart)
+- Budget usage progress tracking
+
+💡 Smart Features
+
+- Overspending alerts
+- Monthly spending analysis
+- Category budget tracking
+
+🎯 Additional Features
+
+- Planned expenses (upcoming payments)
+- Saving goals tracking with progress
+- CSV data export
+
+---
+
+🛠️ Tech Stack
+
+Frontend:
+
+- React.js
+- Tailwind CSS
+
+Backend:
+
+- Spring Boot (Java)
+- REST APIs
+- JWT Authentication
+
+Database:
+
+- MySQL
+
+---
+
+🔐 Security Features
+
+- JWT-based authentication
+- BCrypt password hashing
+- User data isolation
+- Input validation & error handling
+
+---
+
+📂 Project Structure
+
 smart-expense-analyzer/
-├── frontend/          # React application
-├── backend/           # Spring Boot API
-├── ml-service/        # Python FastAPI ML service
-└── database/          # SQL schemas and scripts
-```
+│
+├── frontend/        # React frontend
+├── backend/         # Spring Boot backend
+├── database/        # SQL scripts
 
-## Quick Start
+---
 
-### Prerequisites
+⚙️ Setup Instructions
 
-- Node.js 18+
-- Java 17+
-- Python 3.9+
-- MySQL 8.0+
-- Maven 3.8+
+1. Clone the repository
 
-### Setup Instructions
+git clone https://github.com/your-username/smart-expense-analyzer.git
 
-See [SETUP.md](SETUP.md) for detailed installation and configuration steps.
+2. Backend Setup
 
-## API Documentation
+- Configure MySQL database
+- Update "application.properties"
+- Run:
 
-See [API.md](API.md) for complete REST API documentation.
+mvn spring-boot:run
 
-## License
+3. Frontend Setup
 
-MIT
+cd frontend
+npm install
+npm start
+
+---
+
+👨‍💻 Author
+
+Vansh Jain
+Ayush Kushwaha
+Mohd. Yasir
+
+---
+
+⭐ If you like this project, give it a star!
