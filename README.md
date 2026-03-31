@@ -74,7 +74,7 @@ smart-expense-analyzer/
 
 1. Clone the repository
 
-git clone https://github.com/your-username/smart-expense-analyzer.git
+git clone https://github.com/jainvansh28/smart-expense-analyzer.git
 
 2. Backend Setup
 
